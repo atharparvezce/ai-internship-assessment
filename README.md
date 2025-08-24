@@ -115,7 +115,7 @@ If given more time, I would focus on deepening domain-specific understanding and
   With more time, I would experiment with different embedding models (e.g., multilingual transformers, openai embedding, different embedding models available on huggingface) and clustering techniques to better capture semantic relationships across diverse item descriptions.
 
 - **Benchmark Against Existing Taxonomies**  
-  I wouldcompare my categorization outputs with established construction inventory taxonomies to identify gaps and improve alignment.
+  I would compare my categorization outputs with established construction inventory taxonomies to identify gaps and improve alignment.
 
 - **Optimize for Scalability**  
   I would modularize the pipeline further to support larger datasets and multilingual inputs, ensuring robustness across varied real-world scenarios.
