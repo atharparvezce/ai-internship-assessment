@@ -1,10 +1,10 @@
-# 🧠 Purchase Order Item Categorization
+# Purchase Order Item Categorization
 
 This project aims to build a scalable, multilingual solution for categorizing purchase order items based on their descriptions. The goal is to uncover actionable insights into spending patterns across product categories, supporting credit optimization and procurement analysis for **Aajil Accelerate**.
 
 ---
 
-## 📌 Objectives
+## Objectives
 
 - Categorize purchase order items with multilingual, unstructured descriptions.
 - Enable spend analysis across logical product categories.
@@ -12,7 +12,7 @@ This project aims to build a scalable, multilingual solution for categorizing pu
 
 ---
 
-## 🧭 Step 0: Problem Understanding
+## Step 0: Problem Understanding
 
 Before implementation, I reviewed the business context and assessment guidelines. Key principles guiding the solution:
 
@@ -22,7 +22,7 @@ Before implementation, I reviewed the business context and assessment guidelines
 
 ---
 
-## 📊 Step 1: Exploratory Data Analysis (EDA)
+## Step 1: Exploratory Data Analysis (EDA)
 
 Initial data exploration focused on:
 
@@ -34,7 +34,7 @@ This step informed preprocessing and modeling choices.
 
 ---
 
-## 🧾 Step 2: Rule-Based Categorization (Baseline)
+## Step 2: Rule-Based Categorization (Baseline)
 
 A keyword-driven rule-based approach was used to:
 
@@ -49,11 +49,11 @@ A keyword-driven rule-based approach was used to:
 
 ---
 
-## 🔍 Step 3: Embedding-Based Clustering
+## Step 3: Embedding-Based Clustering
 
 To improve scalability and semantic understanding, I adopted an unsupervised clustering approach using sentence embeddings.
 
-### 🔹 Embedding Models Tested
+### Embedding Models Tested
 
 | Model Name                                 | Outcome                              |
 |-------------------------------------------|--------------------------------------|
@@ -63,7 +63,7 @@ To improve scalability and semantic understanding, I adopted an unsupervised clu
 
 **Selected Model:** `MiniLM-L3-v2` for its balance of performance and interpretability.
 
-### 🔹 Clustering Algorithms
+### Clustering Algorithms
 
 - **KMeans**: Tuned using Elbow Method and Silhouette Score.
 - **DBSCAN**: Less effective due to high-dimensional sparsity.
@@ -72,7 +72,7 @@ KMeans produced more coherent and business-relevant clusters.
 
 ---
 
-## 🧠 Step 4: Cluster Labeling with LLM
+## Step 4: Cluster Labeling with LLM
 
 To assign meaningful category names:
 
@@ -83,19 +83,19 @@ This hybrid approach combined automation with interpretability.
 
 ---
 
-## 📈 Step 5: Spend Analysis & Visualization
+## Step 5: Spend Analysis & Visualization
 
 Analyzed purchase amounts across categories using:
 
-- 📊 Bar charts for absolute spend.
-- 🥧 Pie charts for relative proportions.
-- 📉 Time-series plots for seasonal trends and anomalies.
+- Bar charts for absolute spend.
+- Pie charts for relative proportions.
+- Time-series plots for seasonal trends and anomalies.
 
 These visualizations support strategic decisions in credit and procurement.
 
 ---
 
-## 🚀 Outcomes
+## Outcomes
 
 - A scalable, multilingual categorization pipeline.
 - Logical, interpretable product categories.
@@ -103,7 +103,7 @@ These visualizations support strategic decisions in credit and procurement.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - SentenceTransformers
