@@ -106,16 +106,22 @@ These visualizations support strategic decisions in credit and procurement.
 ## Repository Structure
 
 ### data/ 
-Raw and cleaned data(1. purchase-order-items.xlsx, 2. purchase_orders_clean_cleaned.xlsx and 3. purchase_orders_clean_final.xlsx) 
+It content below three data file original data , clean data and final data with categories.
+1. original-purchase-order-items.xlsx
+2. cleaned-data-after-eda.xlsx
+3. final-data-with-categories.xlsx 
 
 ### notebooks/ 
-EDA and modeling notebooks(1. EDA-and-Cleaning.ipynb, 2. Rule-Based-Categorization.ipynb and 3_Unsupervised_ML_with_embeddings_+_clustering.ipynb)
+It contains three notebook files EDA , Rules based and Clustering
+1. eda-and-cleaning.ipynb
+2. rule-based-categorization.ipynb
+3. clustering using embeddings.ipynb
 
 ### README.md  
 Project overview
 
 ### .gitignore  
-for ignoring some file to github
+For ignoring some file to github
 
 ---
 
