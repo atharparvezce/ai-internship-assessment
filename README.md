@@ -121,7 +121,7 @@ If given more time, I would focus on deepening domain-specific understanding and
   I would modularize the pipeline further to support larger datasets and multilingual inputs, ensuring robustness across varied real-world scenarios.
 
 - **Note**
-Although it is possible to leverage large language models (LLMs) from Hugging Face to automatically generate logical category labels based on the KMeans cluster outputs, due to time constraints, the categorization was performed manually in this iteration.
+  Although it is possible to leverage large language models (LLMs) from Hugging Face to automatically generate logical category labels based on the KMeans cluster outputs, due to time constraints, the categorization was performed manually in this iteration.
 
 Overall, my goal would be to evolve this into a scalable, interpretable, and domain-aware categorization system that balances technical rigor with practical usability.
 
