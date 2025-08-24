@@ -102,6 +102,23 @@ These visualizations support strategic decisions in credit and procurement.
 - Actionable insights into spending behavior.
 
 ---
+## How to Run the Code
+
+This project is built using Jupyter notebooks and is designed to run directly in **Google Colab**.
+
+### Why Google Colab?
+Due to performance limitations on my local machine, I transitioned to Google Colab for faster execution and smoother handling of embedding and clustering tasks.
+
+### Steps to Execute
+
+1. **Open Google Colab**  
+2. **Upload Notebooks**  
+3. **Upload Data Files**  
+4. **Run Cells Sequentially**
+5. **View Outputs**  
+   Visualizations and clustering results will appear inline within the notebooks.
+
+---
 
 ## Repository Structure
 
@@ -124,6 +141,23 @@ Project overview
 For ignoring some file to github
 
 ---
+
+## Tools & Resources Used
+
+This project combined technical rigor with practical research and collaborative assistance. Key tools and resources included:
+
+- **Google Search**  
+  Used extensively to research construction-related terminology and industry-specific product categories, ensuring accurate and business-relevant labeling.
+
+- **ChatGPT (GPT-5)**  
+  Assisted in:
+  - Debugging Python and clustering logic during development.
+  - Refining documentation and verifying spelling and grammar.
+  - Summarizing cluster semantics for category naming.
+
+---
+
+
 
 ## Contact
 
