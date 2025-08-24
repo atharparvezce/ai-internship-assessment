@@ -57,7 +57,7 @@ To improve scalability and semantic understanding, I adopted an unsupervised clu
 
 | Model Name                                 | Outcome                              |
 |-------------------------------------------|--------------------------------------|
-| `paraphrase-multilingual-MiniLM-L3-v2`    | ✅ Most logical and compact clusters |
+| `paraphrase-multilingual-MiniLM-L3-v2`    | Most logical and compact clusters |
 | `paraphrase-multilingual-mpnet-base-v2`   | Decent but less interpretable        |
 | `distiluse-base-multilingual-cased-v2`    | Lower semantic coherence             |
 
