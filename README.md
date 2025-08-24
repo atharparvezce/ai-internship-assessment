@@ -103,21 +103,19 @@ These visualizations support strategic decisions in credit and procurement.
 
 ---
 
-## Tech Stack
-
-- Python
-- SentenceTransformers
-- Scikit-learn (KMeans, DBSCAN)
-- Matplotlib / Seaborn
-- OpenAI / LLM APIs
-
----
-
 ## Repository Structure
 
-├── data/ # Raw and cleaned data(1. purchase-order-items.xlsx, 2. purchase_orders_clean_cleaned.xlsx and 3. purchase_orders_clean_final.xlsx) 
-├── notebooks/ # EDA and modeling notebooks(1. EDA-and-Cleaning.ipynb, 2. Rule-Based-Categorization.ipynb and 3_Unsupervised_ML_with_embeddings_+_clustering.ipynb)
-├── README.md  # Project overview
+# data/ 
+Raw and cleaned data(1. purchase-order-items.xlsx, 2. purchase_orders_clean_cleaned.xlsx and 3. purchase_orders_clean_final.xlsx) 
+
+# notebooks/ 
+EDA and modeling notebooks(1. EDA-and-Cleaning.ipynb, 2. Rule-Based-Categorization.ipynb and 3_Unsupervised_ML_with_embeddings_+_clustering.ipynb)
+
+# README.md  
+Project overview
+
+# .gitignore  
+for ignoring some file to github
 
 ---
 
