@@ -102,21 +102,29 @@ These visualizations support strategic decisions in credit and procurement.
 - Actionable insights into spending behavior.
 
 ---
-## How to Run the Code
+## What Would I Do Differently With More Time?
 
-This project is built using Jupyter notebooks and is designed to run directly in **Google Colab**.
+If given more time, I would focus on deepening domain-specific understanding and refining the categorization logic accordingly. Specifically:
 
-### Why Google Colab?
-Due to performance limitations on my local machine, I transitioned to Google Colab for faster execution and smoother handling of embedding and clustering tasks.
+- **Engage with Construction Experts**  
+  I would consult with professionals in the construction domain to validate and refine the umbrella terms used for item categories. This would help ensure semantic accuracy and industry relevance.
 
-### Steps to Execute
+- **Expand Rule-Based Logic**  
+  I would enhance the rule-based categorization by incorporating more nuanced keyword mappings and exception handling, especially for ambiguous or multi-functional items.
 
-1. **Open Google Colab**  
-2. **Upload Notebooks**  
-3. **Upload Data Files**  
-4. **Run Cells Sequentially**
-5. **View Outputs**  
-   Visualizations and clustering results will appear inline within the notebooks.
+- **Iterate on Clustering Parameters**  
+  With more time, I would experiment with different embedding models (e.g., multilingual transformers, openai embedding, different embedding models available on huggingface) and clustering techniques to better capture semantic relationships across diverse item descriptions.
+
+- **Benchmark Against Existing Taxonomies**  
+  I wouldcompare my categorization outputs with established construction inventory taxonomies to identify gaps and improve alignment.
+
+- **Optimize for Scalability**  
+  I would modularize the pipeline further to support larger datasets and multilingual inputs, ensuring robustness across varied real-world scenarios.
+
+- **Note**
+Although it is possible to leverage large language models (LLMs) from Hugging Face to automatically generate logical category labels based on the KMeans cluster outputs, due to time constraints, the categorization was performed manually in this iteration.
+
+Overall, my goal would be to evolve this into a scalable, interpretable, and domain-aware categorization system that balances technical rigor with practical usability.
 
 ---
 
@@ -142,6 +150,25 @@ For ignoring some file to github
 
 ---
 
+## How to Run the Code
+
+This project is built using Jupyter notebooks and is designed to run directly in **Google Colab**.
+
+### Why Google Colab?
+Due to performance limitations on my local machine, I transitioned to Google Colab for faster execution and smoother handling of embedding and clustering tasks.
+
+### Steps to Execute
+
+1. **Open Google Colab**  
+2. **Upload Notebooks**  
+3. **Upload Data Files**  
+4. **Run Cells Sequentially**
+5. **View Outputs**  
+   Visualizations and clustering results will appear inline within the notebooks.
+6. **No need for extra requirement.txt file**
+
+---
+
 ## Tools & Resources Used
 
 This project combined technical rigor with practical research and collaborative assistance. Key tools and resources included:
@@ -157,7 +184,15 @@ This project combined technical rigor with practical research and collaborative 
 
 ---
 
+## Final Note
 
+I have done my best to approach this categorization task with logical structure, semantic clarity, and iterative refinement. While I have applied clustering, rule-based logic, and embedding techniques to map items into meaningful categories, I acknowledge that my domain knowledge in **construction inventory** is limited.
+
+Some umbrella terms or category assignments may not perfectly align with industry-specific conventions. However, each decision was made with careful reasoning and a commitment to clarity and reproducibility.
+
+I welcome feedback and domain-specific insights to further improve this mapping. The goal was not perfection, but a robust and interpretable foundation for future refinement.
+
+---
 
 ## Contact
 
