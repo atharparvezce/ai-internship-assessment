@@ -89,7 +89,6 @@ Analyzed purchase amounts across categories using:
 
 - Bar charts for absolute spend.
 - Pie charts for relative proportions.
-- Time-series plots for seasonal trends and anomalies.
 
 These visualizations support strategic decisions in credit and procurement.
 
